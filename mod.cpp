@@ -1,7 +1,7 @@
 name = "Mine Detector Fixes";
 picture = "logo_mdf_ca.paa";
 actionName = "GitHub";
-action = "https://github.com/DartRuffian/Mine-Detector-Fixes";
+action = "https://github.com/DartsArmaMods/MineDetectorFixes";
 description = "MDF - Version 0.0.0";
 logo = "logo_mdf_ca.paa";
 logoOver = "logo_mdf_ca.paa";

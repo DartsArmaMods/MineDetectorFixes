@@ -1,0 +1,51 @@
+[default]
+workshop = [
+    "450814997",  # CBA
+    "2369477168", # ADT
+]
+presets = []
+dlc = []
+optionals = []
+parameters = []
+
+[ace]
+extends = "default"
+workshop = [
+    "463939057", # ACE
+]
+
+[ace_placeables]
+extends = "default" # Extends default so custom ace version can be loaded if needed
+workshop = [
+    "866772689", # ACE 3 Extension (Placeables)
+]
+
+[jlts]
+extends = "default"
+workshop = [
+    "1940589429" # JLTS
+]
+
+[fow]
+extends = "default"
+workshop = [
+    "891433622" # Faces of War
+]
+
+[wbk_headlamps]
+extends = "default"
+workshop = [
+    "2572487482" # WebKnight Flashlights and Headlamps
+]
+
+[wbk_lightsabers]
+extends = "default"
+workshop = [
+    "2323185592" # Lightsabers and Force
+]
+
+[zombiesanddemons]
+extends = "default"
+workshop = [
+    "501966277" # Zombies and Demons
+]

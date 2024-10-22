@@ -2,9 +2,10 @@
 
 class CfgPatches {
     class SUBADDON {
-        author = "Cannon";
+        author = AUTHOR;
+        authors[] = {"Cannon", "DartRuffian"};
         name = COMPONENT_NAME;
-        addonRootClass = QUOTE(ADDON);
+        addonRootClass = "WBK_SomeSciFiWeapons";
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             QUOTE(ADDON),
@@ -14,7 +15,7 @@ class CfgPatches {
         weapons[] = {};
         VERSION_CONFIG;
 
-        skipWhenMissingDependencies = TRUE;
+        skipWhenMissingDependencies = 1;
     };
 };
 

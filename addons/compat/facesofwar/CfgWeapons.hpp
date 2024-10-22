@@ -1,13 +1,5 @@
 class CfgWeapons {
-    class CBA_MiscItem;
-    class CBA_MiscItem_ItemInfo;
-    class fow_itemBase: CBA_MiscItem {
-        detectRange = 0;
-        simulation = "Weapon";
-        type = TYPE_ITEM;
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 1;
-            type = TYPE_BIPOD;
-        };
-    };
+    class ItemCore;
+    class InventoryItem_Base_F;
+    SIMPLE_PATCH(fow_itemBase,ItemCore,InventoryItem_Base_F);
 };

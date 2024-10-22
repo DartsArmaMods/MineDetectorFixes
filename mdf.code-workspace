@@ -1,12 +1,10 @@
 {
-    "folders":
-    [
+    "folders": [
         {
-            "path": "./"
+            "path": "."
         }
     ],
-    "settings":
-    {
+    "settings": {
         "editor.insertSpaces": true,
         "editor.detectIndentation": false,
 
@@ -15,9 +13,12 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": false,
 
-        "files.associations":
-        {
-            "*.hpp": "cpp"
+        "files.associations": {
+            "*.cpp": "cpp",
+            "*.hpp": "cpp",
+            "*.inc": "cpp",
+            "*.cfg": "cpp",
+            "*.rvmat": "cpp"
         },
 
         "C_Cpp.errorSquiggles": "disabled"

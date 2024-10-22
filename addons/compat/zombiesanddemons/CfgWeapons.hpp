@@ -1,17 +1,22 @@
 class CfgWeapons {
-    class CBA_MiscItem;
-    class CBA_MiscItem_ItemInfo;
-    SIMPLE_PATCH(dat_ItemCore);
+    class ItemCore;
+    class InventoryItem_Base_F;
+    class dat_ItemCore: ItemCore {
+        type = TYPE_ITEM;
+        simulation = "Weapon";
+        detectRange = 0;
+        ace_asItem = 1;
+    };
 
     class RyanZombiesAntiVirusCure_Item: dat_ItemCore {
-        class ItemInfo: ItemInfo {
-            mass = 1;
+        class ItemInfo: InventoryItem_Base_F {
+            type = TYPE_BIPOD;
         };
     };
 
     class RyanZombiesAntiVirusTemporary_Item: dat_ItemCore {
-        class ItemInfo: ItemInfo {
-            mass = 1;
+        class ItemInfo: InventoryItem_Base_F {
+            type = TYPE_BIPOD;
         };
     };
 };

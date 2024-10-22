@@ -2,9 +2,10 @@
 
 class CfgPatches {
     class SUBADDON {
-        author = "DartRuffian";
+        author = AUTHOR;
+        authors[] = {"DartRuffian"};
         name = COMPONENT_NAME;
-        addonRootClass = QUOTE(ADDON);
+        addonRootClass = "WBK_Headlamps";
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             QUOTE(ADDON),
@@ -14,7 +15,7 @@ class CfgPatches {
         weapons[] = {};
         VERSION_CONFIG;
 
-        skipWhenMissingDependencies = TRUE;
+        skipWhenMissingDependencies = 1;
     };
 };
 

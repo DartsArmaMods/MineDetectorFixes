@@ -1,23 +1,26 @@
 ---
 name: Bug Report
-about: Report a bug.
+about: Create a bug report to help us improve
 title: ''
-labels: issue/bug
+labels: kind/bug
 assignees: ''
 ---
 
-## Description
-Could be along the lines of:
-- Compatibility patch for mod is not working.
-- Some item was missed in a compatibility patch.
+## Describe the bug
+A clear and concise description of what the bug is.
 
-### Additional Info
-Information here.
+## To reproduce
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## Log File
-Attach your `.rpt` (Arma log) file here.
+## Expected behavior
+A clear and concise description of what you expected to happen.
 
-## Items
-Items that are breaking mine detectors even when the mod is loaded.
-- `item_className`
-- `item2_className`
+## Attachments
+If applicable, add screenshots or RPT logs to help explain your problem.
+
+## Additional context
+Add any other context about the problem here. Such as item class names.

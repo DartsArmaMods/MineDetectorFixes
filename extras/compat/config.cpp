@@ -2,18 +2,20 @@
 
 class CfgPatches {
     class SUBADDON {
-        author = "Your Name";
+        author = AUTHOR;
+        authors[] = {"You!"};
         name = COMPONENT_NAME;
-        addonRootClass = QUOTE(ADDON);
+        addonRootClass = "addonName";
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            QUOTE(ADDON)
+            QUOTE(ADDON),
+            "addonName"
         };
         units[] = {};
         weapons[] = {};
         VERSION_CONFIG;
 
-        skipWhenMissingDependencies = TRUE;
+        skipWhenMissingDependencies = 1;
     };
 };
 

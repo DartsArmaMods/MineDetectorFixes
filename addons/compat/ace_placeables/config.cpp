@@ -2,9 +2,10 @@
 
 class CfgPatches {
     class SUBADDON {
-        author = "DartRuffian";
+        author = AUTHOR;
+        authors[] = {"DartRuffian"};
         name = COMPONENT_NAME;
-        addonRootClass = QUOTE(ADDON);
+        addonRootClass = "KKA3_ACE_Extension_Placeables_Items";
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             QUOTE(ADDON),
@@ -14,7 +15,7 @@ class CfgPatches {
         weapons[] = {};
         VERSION_CONFIG;
 
-        skipWhenMissingDependencies = TRUE;
+        skipWhenMissingDependencies = 1;
     };
 };
 

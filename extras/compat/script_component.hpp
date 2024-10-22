@@ -1,4 +1,4 @@
-#define SUBCOMPONENT MOD_NAME
-#define SUBCOMPONENT_BEAUTIFIED MOD NAME
+#define SUBCOMPONENT addonname
+#define SUBCOMPONENT_BEAUTIFIED Addon Name
 
 #include "..\script_component.hpp"

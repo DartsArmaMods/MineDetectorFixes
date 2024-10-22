@@ -1,7 +1,7 @@
 name = "Mine Detector Fixes"
 author = "DartRuffian"
-prefix = "MDF"
-mainprefix = "DA"
+prefix = "mdf"
+mainprefix = "z"
 
 [version]
 path = "addons/main/script_version.hpp"
@@ -22,25 +22,3 @@ exclude = [
 
 [properties]
 author = "DartRuffian"
-url = "https://github.com/DartRuffian/Mine-Detector-Fixes"
-
-[hemtt.launch.default]
-workshop = [
-    "450814997",  # CBA
-    "2369477168", # ADT
-]
-presets = []
-dlc = []
-optionals = []
-parameters = []
-
-[hemtt.launch.jlts]
-workshop = [
-    "450814997",  # CBA
-    "2369477168", # ADT
-    "1940589429"  # JLTS
-]
-presets = []
-dlc = []
-optionals = []
-parameters = []
